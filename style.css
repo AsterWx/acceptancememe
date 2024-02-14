@@ -1,0 +1,14 @@
+#rejection {
+  left:auto;
+  position: absolute;
+}
+div {
+  text-align: center;
+}
+body {
+  background-color: pink;
+}
+
+#proposal {
+  text-align: center;
+}
