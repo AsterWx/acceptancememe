@@ -14,4 +14,11 @@ function rejectionClick() {
     document.querySelector("h1").textContent="Kys then lil nigga"
   }
 }
-  
+
+acceptance.addEventListener("click",acceptanceClick);
+function acceptanceClick() {
+    document.querySelector("h1").textContent="You will be my pookie bear for the rest of eternity"
+    document.querySelector("img").src="https://media1.tenor.com/images/7106845393e9a9d584f82a6d9484c2b0/tenor.gif?itemid=13611267"
+    acceptance.remove();
+    rejection.remove();
+}
