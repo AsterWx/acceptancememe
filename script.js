@@ -17,7 +17,7 @@ function rejectionClick() {
 
 acceptance.addEventListener("click",acceptanceClick);
 function acceptanceClick() {
-    document.querySelector("h1").textContent="You will be my pookie bear for the rest of eternity"
+    document.querySelector("h1").textContent="Your school will prosper with Nicole Zheng as an attendee."
     document.querySelector("img").src="https://media1.tenor.com/images/7106845393e9a9d584f82a6d9484c2b0/tenor.gif?itemid=13611267"
     acceptance.remove();
     rejection.remove();
