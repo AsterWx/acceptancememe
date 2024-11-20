@@ -11,7 +11,7 @@ function rejectionClick() {
   rejectionCount++;
 
   if(rejectionCount > 5) {
-    document.querySelector("h1").textContent="Kys then"
+    document.querySelector("h1").textContent="Rethink it"
   }
 }
 
